@@ -2,10 +2,14 @@ namespace mealPrep.Models
 {
   public class ingredient {
     public int Id {get; set;}
-    public string name {get; set;}
-    public string description {get; set;}
+    public string Name {get; set;}
+    public string Description {get; set;}
 
-    public int quantity {get; set;}
+    public int Calories {get; set;}
+
+    public int Quantity {get; set;}
+
+      public bool Complete {get; set;}
 
   }
 }
